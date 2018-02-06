@@ -2,7 +2,7 @@ function click(e) {
   chrome.tabs.executeScript(null,
       {code:`(() => {
         if(window.location.href !== "https://tinder.com/") {
-          return alert("Go to tinder.com first!");
+          alert("Go to tinder.com first!");
         }
         const likeButton = document.getElementsByClassName("recsGamepad__button--like");
         setInterval(() => {
@@ -17,7 +17,7 @@ function click(e) {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-  var divs = document.querySelectorAll('div');
+  var divs = document.querySelectorAll('a');
   for (var i = 0; i < divs.length; i++) {
     divs[i].addEventListener('click', click);
   }
