@@ -7,6 +7,13 @@
     "default_popup": "hello.html"
   },
   "permissions": [
-    "activeTab"
-  ]
+    "activeTab",
+    "https://www.google-analytics.com/",
+    "storage"
+  ],
+  "icons": {
+    "16": "tinder16.png",
+    "48": "tinder48.png",
+    "128": "tinder128.png"
+  }
 }

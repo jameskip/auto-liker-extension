@@ -3,6 +3,10 @@ body {
   color: #fbf1c7;
 }
 
+h3 {
+  align-items: center;
+}
+
 .switch {
   position: relative;
   display: inline-block;
