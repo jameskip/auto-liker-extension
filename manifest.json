@@ -1,0 +1,12 @@
+{
+  "name": "Auto Liker for Tinder",
+  "description" : "Be cool.",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "hello.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
