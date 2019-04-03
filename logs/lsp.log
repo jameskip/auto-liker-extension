@@ -1,0 +1,7 @@
+19:39:23.863 Unable to add directory /Users/james/Documents/GitHub/auto-liker-extension/specs to file watcher: lstat /Users/james/Documents/GitHub/auto-liker-extension/specs: no such file or directory
+19:39:23.863 Initializing concepts cache with 0 concepts
+19:39:23.863 Initializing specs cache with 0 specs
+19:39:23.863 Initializing steps cache with 0 steps
+19:39:23.864 Current runner is not compatible with gauge LSP.
+19:39:23.864 LangServer: reading on stdin, writing on stdout
+19:39:33.357 notif #0: initialized: current runner is not compatible with gauge LSP
